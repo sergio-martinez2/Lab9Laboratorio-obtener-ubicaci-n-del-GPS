@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/backgroundColor"
+    tools:context=".home">
+
+    <!-- Toolbar -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="0dp"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <!-- Logo -->
+        <ImageView
+            android:id="@+id/logoImageView"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="start"
+            android:layout_marginStart="16dp"
+            android:src="@drawable/logo2" />
+
+        <!-- Texto -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Menu Conductor"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginStart="8dp" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <!-- Mensaje de bienvenida -->
+    <TextView
+        android:id="@+id/inicioUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hola de nuevo, Conductor!"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/textPrimary"
+        android:layout_marginTop="24dp"
+        app:layout_constraintTop_toBottomOf="@id/toolbar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Botón Ver Perfil -->
+    <Button
+        android:id="@+id/btn_ver_perfil"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Ver Perfil"
+        android:textAllCaps="false"
+        android:backgroundTint="?attr/colorAccent"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="16dp"
+        android:padding="12dp"
+        android:onClick="abrirActivityRegistrarVehiculo"
+        app:layout_constraintTop_toBottomOf="@id/inicioUsuario"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Botón Lista de Vehículos Disponibles -->
+    <Button
+        android:id="@+id/btn_ver_lista_vehiculos"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Lista de Vehículos Disponibles"
+        android:textAllCaps="false"
+        android:backgroundTint="?attr/colorAccent"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="16dp"
+        android:padding="12dp"
+        android:onClick="abrirActivityVerListaVehiculos"
+        app:layout_constraintTop_toBottomOf="@id/btn_ver_perfil"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Botón Ver Solicitud de Cargas -->
+    <Button
+        android:id="@+id/btn_ver_solicitud_cargas"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="?attr/colorAccent"
+        android:onClick="abrirActivityVerListaVehiculos"
+        android:padding="12dp"
+        android:text="Ver Solicitud de Cargas"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_ver_lista_vehiculos" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

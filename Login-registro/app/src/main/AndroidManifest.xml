@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="BusPinchao"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LOGIN_PHP"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".funcionalidades.NavegacionConOdometro"
+            android:exported="false" />
+
+
+        <activity
+            android:name=".funcionalidades.verEstadoViaje"
+            android:exported="false" />
+        <activity
+            android:name=".funcionalidades.OdometerService"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCQVXJM8GnT9DecRSOmsyIgFv75gbXhrHY" />
+
+        <activity
+            android:name=".funcionalidades.CalificarViajeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".homes.homeadministrador"
+            android:exported="false" />
+        <activity
+            android:name=".homes.homecliente"
+            android:exported="false" />
+        <activity
+            android:name=".homes.homeconductor"
+            android:exported="false" />
+        <activity android:name=".home" />
+        <activity android:name=".funcionalidades.registrarVehiculo" />
+        <activity android:name=".funcionalidades.verListaVehiculos" />
+        <activity android:name=".funcionalidades.ActividadEdicion" />
+        <activity android:name=".funcionalidades.ActividadEdicionCarga" />
+        <activity android:name=".funcionalidades.crearCarga" />
+        <activity android:name=".funcionalidades.verPerfil" />
+        <activity android:name=".funcionalidades.Mapas" />
+        <activity android:name=".funcionalidades.Navegacion" />
+        <activity android:name=".funcionalidades.historicoCargas" />
+        <activity android:name=".funcionalidades.gestionCargas" />
+        <activity android:name=".registrar" />
+
+        <service
+            android:name=".funcionalidades.OdometerService"
+            android:exported="false" />
+
+        <activity
+            android:name=".login"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

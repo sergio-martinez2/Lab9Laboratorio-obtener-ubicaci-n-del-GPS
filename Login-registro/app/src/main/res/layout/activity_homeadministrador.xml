@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".home"
+    android:padding="16dp"
+    android:background="@color/backgroundColor">
+
+    <!-- Toolbar -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!-- Logo -->
+        <ImageView
+            android:id="@+id/logoImageView"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/logo2"
+            android:layout_gravity="start"
+            android:layout_marginStart="16dp"/>
+
+        <!-- Texto -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Menu Administrador"
+            android:textSize="18sp"
+            android:textColor="@android:color/white"
+            android:layout_gravity="center"
+            android:layout_marginStart="8dp"/>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <!-- Mensaje de bienvenida -->
+    <TextView
+        android:id="@+id/inicioUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bienvenido, Administrador!"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/toolbar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Botón Registrar Vehículo -->
+    <Button
+        android:id="@+id/btn_registrar_vehiculo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Registrar Vehículo"
+        android:backgroundTint="?attr/colorAccent"
+        android:textColor="@android:color/white"
+        android:padding="12dp"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp"
+        android:onClick="abrirActivityRegistrarVehiculo"
+        app:layout_constraintTop_toBottomOf="@id/inicioUsuario"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <!-- Botón Ver Lista de Vehículos -->
+    <Button
+        android:id="@+id/btn_ver_lista_vehiculos"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Ver Lista de Vehículos"
+        android:backgroundTint="?attr/colorAccent"
+        android:textColor="@android:color/white"
+        android:padding="12dp"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp"
+        android:onClick="abrirActivityVerListaVehiculos"
+        app:layout_constraintTop_toBottomOf="@id/btn_registrar_vehiculo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <!-- Botón Ver Estadísticas de la App -->
+    <Button
+        android:id="@+id/btn_ver_estadisticas"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Ver Estadísticas de la App"
+        android:backgroundTint="?attr/colorAccent"
+        android:textColor="@android:color/white"
+        android:padding="12dp"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp"
+        android:onClick="abrirActivityVerEstadisticas"
+        app:layout_constraintTop_toBottomOf="@id/btn_ver_lista_vehiculos"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

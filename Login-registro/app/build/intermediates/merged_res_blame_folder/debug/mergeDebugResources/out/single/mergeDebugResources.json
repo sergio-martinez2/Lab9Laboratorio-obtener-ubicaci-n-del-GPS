@@ -1,0 +1,178 @@
+[
+    {
+        "merged": "C:\\Users\\Sergio Martinez\\.gradle\\daemon\\8.6\\com.example.login_php.app-debug-29:\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Sergio Martinez\\.gradle\\daemon\\8.6\\com.example.login_php.app-main-31:\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Sergio Martinez\\.gradle\\daemon\\8.6\\com.example.login_php.app-debug-29:\\layout_activity_actividad_edicion_carga.xml.flat",
+        "source": "C:\\Users\\Sergio Martinez\\.gradle\\daemon\\8.6\\com.example.login_php.app-main-31:\\layout\\activity_actividad_edicion_carga.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sergio Martinez\\.gradle\\daemon\\8.6\\com.example.login_php.app-debug-29:\\menu_menu_historico_de_cargas.xml.flat",
+        "source": "C:\\Users\\Sergio Martinez\\.gradle\\daemon\\8.6\\com.example.login_php.app-main-31:\\menu\\menu_historico_de_cargas.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sergio Martinez\\.gradle\\daemon\\8.6\\com.example.login_php.app-debug-29:\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Sergio Martinez\\.gradle\\daemon\\8.6\\com.example.login_php.app-main-31:\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Sergio Martinez\\.gradle\\daemon\\8.6\\com.example.login_php.app-debug-29:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Sergio Martinez\\.gradle\\daemon\\8.6\\com.example.login_php.app-main-31:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sergio Martinez\\.gradle\\daemon\\8.6\\com.example.login_php.app-debug-29:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Sergio Martinez\\.gradle\\daemon\\8.6\\com.example.login_php.app-main-31:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sergio Martinez\\.gradle\\daemon\\8.6\\com.example.login_php.app-debug-29:\\layout_activity_ver_estado_viaje.xml.flat",
+        "source": "C:\\Users\\Sergio Martinez\\.gradle\\daemon\\8.6\\com.example.login_php.app-main-31:\\layout\\activity_ver_estado_viaje.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sergio Martinez\\.gradle\\daemon\\8.6\\com.example.login_php.app-debug-29:\\layout_activity_homeadministrador.xml.flat",
+        "source": "C:\\Users\\Sergio Martinez\\.gradle\\daemon\\8.6\\com.example.login_php.app-main-31:\\layout\\activity_homeadministrador.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sergio Martinez\\.gradle\\daemon\\8.6\\com.example.login_php.app-debug-29:\\layout_activity_actividad_edicion.xml.flat",
+        "source": "C:\\Users\\Sergio Martinez\\.gradle\\daemon\\8.6\\com.example.login_php.app-main-31:\\layout\\activity_actividad_edicion.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sergio Martinez\\.gradle\\daemon\\8.6\\com.example.login_php.app-debug-29:\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Sergio Martinez\\.gradle\\daemon\\8.6\\com.example.login_php.app-main-31:\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Sergio Martinez\\.gradle\\daemon\\8.6\\com.example.login_php.app-debug-29:\\layout_activity_gestion_cargas.xml.flat",
+        "source": "C:\\Users\\Sergio Martinez\\.gradle\\daemon\\8.6\\com.example.login_php.app-main-31:\\layout\\activity_gestion_cargas.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sergio Martinez\\.gradle\\daemon\\8.6\\com.example.login_php.app-debug-29:\\layout_activity_homecliente.xml.flat",
+        "source": "C:\\Users\\Sergio Martinez\\.gradle\\daemon\\8.6\\com.example.login_php.app-main-31:\\layout\\activity_homecliente.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sergio Martinez\\.gradle\\daemon\\8.6\\com.example.login_php.app-debug-29:\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Sergio Martinez\\.gradle\\daemon\\8.6\\com.example.login_php.app-main-31:\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Sergio Martinez\\.gradle\\daemon\\8.6\\com.example.login_php.app-debug-29:\\layout_activity_registrar.xml.flat",
+        "source": "C:\\Users\\Sergio Martinez\\.gradle\\daemon\\8.6\\com.example.login_php.app-main-31:\\layout\\activity_registrar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sergio Martinez\\.gradle\\daemon\\8.6\\com.example.login_php.app-debug-29:\\layout_activity_ver_perfil.xml.flat",
+        "source": "C:\\Users\\Sergio Martinez\\.gradle\\daemon\\8.6\\com.example.login_php.app-main-31:\\layout\\activity_ver_perfil.xml"
+    },
+    {
+        "merged": "com.example.login_php.app-debug-29:/layout_activity_homeconductor.xml.flat",
+        "source": "com.example.login_php.app-main-31:/layout/activity_homeconductor.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sergio Martinez\\.gradle\\daemon\\8.6\\com.example.login_php.app-debug-29:\\layout_activity_preview.xml.flat",
+        "source": "C:\\Users\\Sergio Martinez\\.gradle\\daemon\\8.6\\com.example.login_php.app-main-31:\\layout\\activity_preview.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sergio Martinez\\.gradle\\daemon\\8.6\\com.example.login_php.app-debug-29:\\drawable_logo2.png.flat",
+        "source": "C:\\Users\\Sergio Martinez\\.gradle\\daemon\\8.6\\com.example.login_php.app-main-31:\\drawable\\logo2.png"
+    },
+    {
+        "merged": "C:\\Users\\Sergio Martinez\\.gradle\\daemon\\8.6\\com.example.login_php.app-debug-29:\\menu_menu_contextual.xml.flat",
+        "source": "C:\\Users\\Sergio Martinez\\.gradle\\daemon\\8.6\\com.example.login_php.app-main-31:\\menu\\menu_contextual.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sergio Martinez\\.gradle\\daemon\\8.6\\com.example.login_php.app-debug-29:\\layout_activity_ver_lista_vehiculos.xml.flat",
+        "source": "C:\\Users\\Sergio Martinez\\.gradle\\daemon\\8.6\\com.example.login_php.app-main-31:\\layout\\activity_ver_lista_vehiculos.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sergio Martinez\\.gradle\\daemon\\8.6\\com.example.login_php.app-debug-29:\\drawable_textverde.xml.flat",
+        "source": "C:\\Users\\Sergio Martinez\\.gradle\\daemon\\8.6\\com.example.login_php.app-main-31:\\drawable\\textverde.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sergio Martinez\\.gradle\\daemon\\8.6\\com.example.login_php.app-debug-29:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Sergio Martinez\\.gradle\\daemon\\8.6\\com.example.login_php.app-main-31:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sergio Martinez\\.gradle\\daemon\\8.6\\com.example.login_php.app-debug-29:\\layout_activity_registrarvehiculos.xml.flat",
+        "source": "C:\\Users\\Sergio Martinez\\.gradle\\daemon\\8.6\\com.example.login_php.app-main-31:\\layout\\activity_registrarvehiculos.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sergio Martinez\\.gradle\\daemon\\8.6\\com.example.login_php.app-debug-29:\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Sergio Martinez\\.gradle\\daemon\\8.6\\com.example.login_php.app-main-31:\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Sergio Martinez\\.gradle\\daemon\\8.6\\com.example.login_php.app-debug-29:\\layout_activity_historico_cargas.xml.flat",
+        "source": "C:\\Users\\Sergio Martinez\\.gradle\\daemon\\8.6\\com.example.login_php.app-main-31:\\layout\\activity_historico_cargas.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sergio Martinez\\.gradle\\daemon\\8.6\\com.example.login_php.app-debug-29:\\layout_activity_homeconductor.xml.flat",
+        "source": "C:\\Users\\Sergio Martinez\\.gradle\\daemon\\8.6\\com.example.login_php.app-main-31:\\layout\\activity_homeconductor.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sergio Martinez\\.gradle\\daemon\\8.6\\com.example.login_php.app-debug-29:\\layout_activity_navegacion_con_odometro.xml.flat",
+        "source": "C:\\Users\\Sergio Martinez\\.gradle\\daemon\\8.6\\com.example.login_php.app-main-31:\\layout\\activity_navegacion_con_odometro.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sergio Martinez\\.gradle\\daemon\\8.6\\com.example.login_php.app-debug-29:\\font_dmsans.ttf.flat",
+        "source": "C:\\Users\\Sergio Martinez\\.gradle\\daemon\\8.6\\com.example.login_php.app-main-31:\\font\\dmsans.ttf"
+    },
+    {
+        "merged": "C:\\Users\\Sergio Martinez\\.gradle\\daemon\\8.6\\com.example.login_php.app-debug-29:\\layout_activity_crearcarga.xml.flat",
+        "source": "C:\\Users\\Sergio Martinez\\.gradle\\daemon\\8.6\\com.example.login_php.app-main-31:\\layout\\activity_crearcarga.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sergio Martinez\\.gradle\\daemon\\8.6\\com.example.login_php.app-debug-29:\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Sergio Martinez\\.gradle\\daemon\\8.6\\com.example.login_php.app-main-31:\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sergio Martinez\\.gradle\\daemon\\8.6\\com.example.login_php.app-debug-29:\\drawable_button.xml.flat",
+        "source": "C:\\Users\\Sergio Martinez\\.gradle\\daemon\\8.6\\com.example.login_php.app-main-31:\\drawable\\button.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sergio Martinez\\.gradle\\daemon\\8.6\\com.example.login_php.app-debug-29:\\layout_activity_odometer_service.xml.flat",
+        "source": "C:\\Users\\Sergio Martinez\\.gradle\\daemon\\8.6\\com.example.login_php.app-main-31:\\layout\\activity_odometer_service.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sergio Martinez\\.gradle\\daemon\\8.6\\com.example.login_php.app-debug-29:\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Sergio Martinez\\.gradle\\daemon\\8.6\\com.example.login_php.app-main-31:\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Sergio Martinez\\.gradle\\daemon\\8.6\\com.example.login_php.app-debug-29:\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Sergio Martinez\\.gradle\\daemon\\8.6\\com.example.login_php.app-main-31:\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Sergio Martinez\\.gradle\\daemon\\8.6\\com.example.login_php.app-debug-29:\\drawable_logo.png.flat",
+        "source": "C:\\Users\\Sergio Martinez\\.gradle\\daemon\\8.6\\com.example.login_php.app-main-31:\\drawable\\logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Sergio Martinez\\.gradle\\daemon\\8.6\\com.example.login_php.app-debug-29:\\drawable_ic_notification_icon.xml.flat",
+        "source": "C:\\Users\\Sergio Martinez\\.gradle\\daemon\\8.6\\com.example.login_php.app-main-31:\\drawable\\ic_notification_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sergio Martinez\\.gradle\\daemon\\8.6\\com.example.login_php.app-debug-29:\\layout_activity_home.xml.flat",
+        "source": "C:\\Users\\Sergio Martinez\\.gradle\\daemon\\8.6\\com.example.login_php.app-main-31:\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sergio Martinez\\.gradle\\daemon\\8.6\\com.example.login_php.app-debug-29:\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Sergio Martinez\\.gradle\\daemon\\8.6\\com.example.login_php.app-main-31:\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Sergio Martinez\\.gradle\\daemon\\8.6\\com.example.login_php.app-debug-29:\\layout_activity_navegacion.xml.flat",
+        "source": "C:\\Users\\Sergio Martinez\\.gradle\\daemon\\8.6\\com.example.login_php.app-main-31:\\layout\\activity_navegacion.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sergio Martinez\\.gradle\\daemon\\8.6\\com.example.login_php.app-debug-29:\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Sergio Martinez\\.gradle\\daemon\\8.6\\com.example.login_php.app-main-31:\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Sergio Martinez\\.gradle\\daemon\\8.6\\com.example.login_php.app-debug-29:\\layout_activity_mapas.xml.flat",
+        "source": "C:\\Users\\Sergio Martinez\\.gradle\\daemon\\8.6\\com.example.login_php.app-main-31:\\layout\\activity_mapas.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sergio Martinez\\.gradle\\daemon\\8.6\\com.example.login_php.app-debug-29:\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Sergio Martinez\\.gradle\\daemon\\8.6\\com.example.login_php.app-main-31:\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Sergio Martinez\\.gradle\\daemon\\8.6\\com.example.login_php.app-debug-29:\\layout_activity_calificar_viaje.xml.flat",
+        "source": "C:\\Users\\Sergio Martinez\\.gradle\\daemon\\8.6\\com.example.login_php.app-main-31:\\layout\\activity_calificar_viaje.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sergio Martinez\\.gradle\\daemon\\8.6\\com.example.login_php.app-debug-29:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Sergio Martinez\\.gradle\\daemon\\8.6\\com.example.login_php.app-main-31:\\layout\\activity_main.xml"
+    }
+]

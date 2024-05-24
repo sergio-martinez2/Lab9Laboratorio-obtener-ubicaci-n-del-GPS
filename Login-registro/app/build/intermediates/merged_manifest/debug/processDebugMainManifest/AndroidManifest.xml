@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.login_php"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="25"
+        android:targetSdkVersion="33" />
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <!-- Include required permissions for Google Maps API to run. -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <queries>
+
+        <!-- Needs to be explicitly declared on Android R+ -->
+        <package android:name="com.google.android.apps.maps" />
+    </queries>
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:extractNativeLibs="false"
+        android:icon="@drawable/logo"
+        android:label="BusPinchao"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/Theme.LOGIN_PHP"
+        android:usesCleartextTraffic="true" >
+        <activity
+            android:name="com.example.login_php.funcionalidades.NavegacionConOdometro"
+            android:exported="false" />
+        <activity
+            android:name="com.example.login_php.funcionalidades.verEstadoViaje"
+            android:exported="false" />
+        <activity
+            android:name="com.example.login_php.funcionalidades.OdometerService"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCQVXJM8GnT9DecRSOmsyIgFv75gbXhrHY" />
+
+        <activity
+            android:name="com.example.login_php.funcionalidades.CalificarViajeActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.login_php.homes.homeadministrador"
+            android:exported="false" />
+        <activity
+            android:name="com.example.login_php.homes.homecliente"
+            android:exported="false" />
+        <activity
+            android:name="com.example.login_php.homes.homeconductor"
+            android:exported="false" />
+        <activity android:name="com.example.login_php.home" />
+        <activity android:name="com.example.login_php.funcionalidades.registrarVehiculo" />
+        <activity android:name="com.example.login_php.funcionalidades.verListaVehiculos" />
+        <activity android:name="com.example.login_php.funcionalidades.ActividadEdicion" />
+        <activity android:name="com.example.login_php.funcionalidades.ActividadEdicionCarga" />
+        <activity android:name="com.example.login_php.funcionalidades.crearCarga" />
+        <activity android:name="com.example.login_php.funcionalidades.verPerfil" />
+        <activity android:name="com.example.login_php.funcionalidades.Mapas" />
+        <activity android:name="com.example.login_php.funcionalidades.Navegacion" />
+        <activity android:name="com.example.login_php.funcionalidades.historicoCargas" />
+        <activity android:name="com.example.login_php.funcionalidades.gestionCargas" />
+        <activity android:name="com.example.login_php.registrar" />
+
+        <service
+            android:name="com.example.login_php.funcionalidades.OdometerService"
+            android:exported="false" />
+
+        <activity
+            android:name="com.example.login_php.login"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- Needs to be explicitly declared on P+ -->
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:authorities="com.example.login_php.androidx-startup"
+            android:exported="false" >
+            <meta-data
+                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+                android:value="androidx.startup" />
+        </provider>
+
+        <receiver
+            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+            android:directBootAware="false"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="android.permission.DUMP" >
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>
